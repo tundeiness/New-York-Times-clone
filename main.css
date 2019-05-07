@@ -95,3 +95,43 @@
     left: 0;
     padding: 5rem 10rem;
 }
+
+.article {
+    width: 90%;
+}
+
+.article-heading {
+    color: #121212;
+    font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 1.9375rem;
+    line-height: 2.50rem;
+    margin: 0 20px 2rem;
+    position: relative;
+    top: 0;
+    left: 20rem;
+    max-width: 600px;
+}
+
+.article-heading-span {
+    display: inline-block;
+    max-width: 400.777px;
+}
+
+.article-figure {
+    width: 100%;
+}
+
+.article-image1 {
+    max-width: 100%;
+}
+
+.article-figcaption {
+    margin: 7px auto;
+    color: #666;
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+    font-size: .9rem;
+    line-height: 1.125rem;
+}
+
