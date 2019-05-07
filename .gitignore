@@ -1,0 +1,19 @@
+# visual studio files
+*.user
+*.lib
+*.sbr
+*.xml
+*.sdf
+*.log
+*.bak
+*_p.c
+*_i.c
+*.pch
+*.vssscc
+*.vspscc
+*.aps
+*.user
+*.[Oo]bak
+#OS junks
+[Tt]humbs.db
+*.DS_Store
