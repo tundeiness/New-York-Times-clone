@@ -221,4 +221,18 @@
     line-height: 1.125rem;
 }
 
+.article-text {
+    clear: both;
+}
+
+
+/* styling the article's text and images */
+
+
+
+
+
+.inflation-img {
+    max-width: 100%;
+}
 
