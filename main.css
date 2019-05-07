@@ -135,3 +135,56 @@
     line-height: 1.125rem;
 }
 
+/* styling article wrapper and contents */
+
+.article-wrapper {
+    width: 50%;
+    margin: 2rem auto;
+}
+
+.article-details {
+
+}
+
+.article-author {
+    margin-bottom: 1rem;
+}
+
+.article-interaction {
+
+}
+
+.article-time {
+    float: left;
+}
+
+.article-list {
+    float: right;
+}
+
+.article-icon{
+    display: inline-block;
+    position: relative;
+}
+
+
+.article-icon:not(:last-child) {
+    margin-right: 1rem;
+}
+
+.round {
+    background-color: blue;
+    padding: 5px; 
+    width: 25px;
+    height: 25px;
+    border-radius: 500%;
+}
+
+.icon-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+
+
