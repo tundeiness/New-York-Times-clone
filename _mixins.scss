@@ -1,0 +1,88 @@
+@mixin clearfix {
+    &::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+@mixin absCenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+// MIXINS:
+
+$gradient1: linear-gradient(to bottom right, rgba($color-black, .8), rgba(#21201f, .9));
+
+$gradient2: linear-gradient(to bottom right, rgba(#5f605d, .8), rgba(#727271, .8));
+
+
+// TEXT SHADOWS
+
+@mixin txtShadowWt {
+    text-shadow: 0 .5rem 2.5rem rgba($color-grey-light, .4);
+}
+
+@mixin txtShadowBlk {
+    text-shadow: 0 .5rem 2.5rem rgba($color-black, .4);
+}
+
+
+// BOX SHADOWS
+
+@mixin boxShadowBlk {
+    box-shadow: 0 2rem 4rem rgba($color-black, .5);
+}
+
+@mixin boxShadowWt {
+    box-shadow: 0 .3rem 2rem rgba($color-white, .5);
+}
+
+
+// MEDIA QUERIES:
+
+@mixin respond($breakpoint) {
+
+    @if $breakpoint == phone-vvs {
+        @media only screen and (max-width: 21.875em) { @content}; // 350px
+    }
+
+    @if $breakpoint == phone-vs {
+        @media only screen and (max-width: 25.5em) { @content}; // 408px
+    }
+
+    @if $breakpoint == phone-sml {
+        @media only screen and (max-width: 26.5625em) { @content }; // 425px
+    }
+
+    @if $breakpoint == phone {
+        @media only screen and (max-width: 37.5em) { @content }; // 600px
+    }
+
+    @if $breakpoint == phablet {
+        @media only screen and (max-width: 46.875em) { @content }; // 750px
+    }
+
+    @if $breakpoint == tab-port {
+        @media only screen and (max-width: 56.25em) { @content }; // 900px
+    }
+
+    @if $breakpoint == tab-land {
+        @media only screen and (max-width: 75em) { @content }; // 1200px
+    }
+
+    @if $breakpoint == biggish-desk {
+        @media only screen and (min-width: 100em) { @content }; // 1600px
+    }
+
+    @if $breakpoint == big-desk {
+        @media only screen and (min-width: 112.5em) { @content }; // 1800px
+    }
+
+    @if $breakpoint == biggest-desk {
+        @media only screen and (min-width: 130em) { @content }; // 2000px
+    }
+}

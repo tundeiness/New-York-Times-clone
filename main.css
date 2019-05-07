@@ -6,7 +6,11 @@
     position: fixed;
     width: 100%;
     text-align: center;
+    z-index: 1000;
+    background-color: white;
 }
+
+
 
 .header-div {
     display: inline-block;
@@ -80,4 +84,14 @@
 
 .header-button:hover {
     background-color: #326891;
+}
+
+
+/* styling the main content */
+
+.main {
+    position: relative;
+    top: 2rem;
+    left: 0;
+    padding: 5rem 10rem;
 }
