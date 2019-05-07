@@ -1,0 +1,9 @@
+linters:
+    flake8:
+    eslint:
+        config: './eslint.config'
+    csslint:
+        ignore: 'box-model,ids,padding,height,width,webkit-appearance,moz-appearance,*,box-sizing,outline,moz-,webkit-'
+
+files:
+    ignore:
