@@ -1,5 +1,5 @@
 # New-York-Times-clone
-The New_York-Times-clone project is aimed at applying the knowledge of positioning and floating elements using CSS to build an exact copy of the New York Times page. 
+The New-York-Times-clone project is aimed at applying the knowledge of positioning and floating elements using CSS to build an exact copy of the New York Times page. 
 
 ## Authors
 This projects was executed by the duo of **Radouane** & **Tunde**.
