@@ -128,11 +128,13 @@
 }
 
 .article-figcaption {
-    margin: 7px auto;
+    margin: 10px 0 10px;
     color: #666;
     font-family: nyt-imperial,georgia,'times new roman',times,serif;
     font-size: .9rem;
-    line-height: 1.125rem;
+    line-height: 1.3rem;
+    width: 80%;
+    text-align: left;
 }
 
 /* styling article wrapper and contents */
@@ -143,16 +145,28 @@
 }
 
 .article-details {
-
+    font-family: sans-serif;
 }
 
 .article-author {
     margin-bottom: 1rem;
+    font-weight: bold;
+    font-family: sans-serif;
 }
 
-.article-interaction {
-
+.author-span {
+    display: inline-block;
+    border-bottom: 1px dashed black;
+    cursor: pointer;
 }
+
+.author-span:hover {
+    border-bottom: 1px dashed transparent;
+}
+
+/* .article-interaction {
+
+} */
 
 .article-time {
     float: left;
@@ -165,6 +179,7 @@
 .article-icon{
     display: inline-block;
     position: relative;
+    cursor: pointer;
 }
 
 
@@ -172,19 +187,38 @@
     margin-right: 1rem;
 }
 
-.round {
-    background-color: blue;
-    padding: 5px; 
+.round,
+.trans-round {
+    background-color: #eee;
+    padding: 10px; 
     width: 25px;
     height: 25px;
     border-radius: 500%;
+}
+
+.round:hover {
+    background-color: transparent;
+    border: 1px solid #eee;
+    color: black;
+}
+
+.trans-round {
+    background-color: transparent;
 }
 
 .icon-center {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%)
+    transform: translate(-50%,-50%);
+    font-size: .9rem;
+}
+
+.article-time {
+    color: #333;
+    letter-spacing: 0.02em;
+    font-size: 0.875rem;
+    line-height: 1.125rem;
 }
 
 
