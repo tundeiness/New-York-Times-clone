@@ -1,0 +1,83 @@
+/* Styling the header */
+
+.header {
+    padding: .5rem 2.5rem .3rem;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+    position: fixed;
+    width: 100%;
+    text-align: center;
+}
+
+.header-div {
+    display: inline-block;
+}
+
+.menu {
+    float: left;
+    cursor: pointer;
+}
+
+.search {
+    float: left;
+    margin-left: 2rem;
+    cursor: pointer;
+}
+
+.title {
+    float: left;
+    margin-left: 2rem;
+}
+
+.header-main-link:link,
+.header-main-link:visited {
+    color: black;
+    text-decoration: none;
+    font-size: 14.25px;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+    line-height: 19px;
+}
+
+.header-main-link:hover {
+    text-decoration: underline;
+}
+
+
+
+.logo {
+    width: 12%;
+}
+
+.img-logo {
+    max-width: 100%;
+    cursor: pointer;
+}
+
+.header-buttons {
+    float: right;
+}
+
+.header-button {
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: nyt-franklin,helvetica,arial,sans-serif;
+    transition: ease 0.6s;
+    background-color: #6288a5;
+    border: 1px solid #326891;
+    color: #fff;
+    font-size: 11px;
+    font-weight: 700;
+    -webkit-letter-spacing: 0.05em;
+    -moz-letter-spacing: 0.05em;
+    -ms-letter-spacing: 0.05em;
+    letter-spacing: 0.05em;
+    line-height: 11px;
+    padding: 8px 9px 6px;
+    text-transform: uppercase;
+}
+
+.header-button:hover {
+    background-color: #326891;
+}
