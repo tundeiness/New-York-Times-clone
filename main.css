@@ -140,8 +140,9 @@
 /* styling article wrapper and contents */
 
 .article-wrapper {
-    width: 70%;
+    width: 600px;
     margin: 2rem auto;
+    overflow: hidden;
 }
 
 .article-details {
@@ -237,13 +238,23 @@
     font-family: nyt-imperial,georgia,'times new roman',times,serif;
     font-size: 1.3rem;
     line-height: 1.5rem;
-    /* margin-left: 20px;
-    margin-right: 20px; */
 }
 
 .inflation {
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    width: 720px;
+    margin: 0 auto;
     overflow: hidden;
+}
+
+.inflation-title {
+    font-size: 20px;
+    font-size: 1.25rem;
+    line-height: 24px;
+    line-height: 1.5rem;
+    font-weight: 700;
+    font-style: normal;
+    font-family: nyt-cheltenham,georgia,times new roman,times,serif;
 }
 
 .inflation-description {
@@ -260,42 +271,68 @@
 }
 
 .inflation-image {
+    max-width:100%;
     width: 100%
 }
 
 .inflation-text {
- width: 150px;
- font-family: nyt-franklin,arial,helvetica,sans-serif;
- font-size: 14px;
- line-height: 17px;
- font-weight: 300;
- color: #000000;
+    width: 173px;
+    font-family: nyt-franklin,arial,helvetica,sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 300;
+    color: #000;
 }
 
 .inflation-text-1 {
- position: absolute;
- top: 7.9%;
- left: 0.2544%;
- 
+    position: absolute;
+    top: 17.9%;
+    left: 0.2544%;
 }
 
 .inflation-text-2 {
     position: absolute;
-    top: 7.9%;
-    left: 29.7029%;
+    top: 17.9%;
+    left: 25.2544%;
 }
 
 .inflation-text-3 {
     position: absolute;
-    top: 7.9%;
-    left: 60.7029%;
+    top: 17.9%;
+    left: 50.7029%;
 }
 
 .inflation-text-4 {
     position: absolute;
-    top: 7.9%;
-    left: 90.7029%;
+    top: 17.9%;
+    left: 76.7029%;
 }
+
+.inflation-text-5 {
+    position: absolute;
+    top: 65.2544%;
+    left: 0;
+}
+
+.inflation-text-6 {
+    position: absolute;
+    top: 65.2544%;
+    left: 25.7029%;
+}
+
+.inflation-text-7 {
+    position: absolute;
+    top: 65.2544%;
+    left: 50.7029%;
+}
+
+.inflation-text-8 {
+    position: absolute;
+    top: 65.2544%;
+    left: 76.7029%;
+}
+
+
 
 .inflation-text-bold {
     margin-right: 5px;
@@ -309,6 +346,35 @@
 
 .inflation-img {
     max-width: 100%;
+}
+
+
+.inflation-author {
+    text-align: left;
+    margin-bottom: 3rem;
+}
+
+.inflation-hr {
+    width: 60px;
+    margin: 1rem 0;
+    color: black;
+    /* border-bottom: 1px solid black; */
+}
+
+.inflation-makers {
+    font-size: 14px;
+    font-size: .875rem;
+    line-height: 18px;
+    line-height: 1.125rem;
+    font-weight: 500;
+    font-style: normal;
+    font-family: nyt-franklin,arial,helvetica,sans-serif;
+}
+
+
+.article-sub-heading {
+    font-weight: 700;
+    margin: 2rem 0;
 }
 
 
