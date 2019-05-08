@@ -424,6 +424,7 @@
 .featured-grid {
     width: 70%;
     border-top: 1px solid black;
+    /* border-bottom: 1px solid black; */
     float: left;
     padding-top: .5rem;
     /* overflow: hidden; */
@@ -447,7 +448,18 @@
     padding: 8px 0px;
 }
 
+.featured-title:hover {
+    text-decoration: underline;
+}
+
 .featured-box-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    border-bottom: 1px solid black;
+}
+
+.editors-pick {
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
@@ -455,8 +467,6 @@
 
 .featured-box {
     width: 29.5%;
-    /* border: 1px solid red; */
-    /* padding: 1rem; */
     margin: 1rem;
 }
 
