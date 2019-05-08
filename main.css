@@ -241,7 +241,46 @@
     margin-right: 20px; */
 }
 
+.inflation {
+    border: 1px solid red;
+}
 
+.inflation-text-img {
+    position: relative;
+}
+
+.inflation-image {
+    width: 100%
+}
+
+.inflation-text-1 {
+ position: absolute;
+ top: 0;
+ left: 20;
+ width: 100%;
+ font-family: nyt-franklin,arial,helvetica,sans-serif;
+ font-size: 14px;
+ line-height: 17px;
+ font-weight: 300;
+ color: #000000;
+}
+
+.inflation-text-2 {
+
+}
+
+.inflation-text-3 {
+
+}
+
+.inflation-text-bold {
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: .05em;
+    font-family: nyt-franklin,arial,helvetica,sans-serif;
+    line-height: 17px;
+    color: #000000;
+}
 
 .inflation-img {
     max-width: 100%;
