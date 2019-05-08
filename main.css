@@ -503,3 +503,26 @@
     letter-spacing: 0.3px;
     color: rgb(153, 153, 153);
 }
+
+.featured-ul {
+    margin: 1rem 0;
+}
+
+.featured-li {
+    font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.375rem;
+    border-top: 1px solid rgb(226, 226, 226);
+    padding: 15px 0px;
+}
+
+.featured-link:link,
+.featured-link:visited {
+    color: rgb(18, 18, 18);
+    text-decoration: none;
+}
+
+.featured-link:hover {
+    color: rgb(102, 102, 102);
+}
