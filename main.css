@@ -140,7 +140,7 @@
 /* styling article wrapper and contents */
 
 .article-wrapper {
-    width: 60%;
+    width: 70%;
     margin: 2rem auto;
 }
 
@@ -225,6 +225,10 @@
     clear: both;
 }
 
+.article-video{
+    margin: 3rem auto;
+}
+
 
 /* styling the article's text and images */
 
@@ -246,6 +250,7 @@
 
 .article-figure2 {
     width: 100%;
+    margin:  2rem auto;
 }
 
 .article-img2 {
@@ -255,5 +260,23 @@
 
 .article-figcaption {
     width: 100%;
+}
+
+.article-footer{
+    margin-bottom: 3rem;
+    font-size: 12px;
+}
+
+.article-footer-links{
+    text-decoration: none;
+    color: #666;
+}
+
+.article-footer-links:hover{
+    text-decoration: underline;
+}
+
+.comments-button{
+    padding:12px 90px ;
 }
 
