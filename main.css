@@ -140,7 +140,7 @@
 /* styling article wrapper and contents */
 
 .article-wrapper {
-    width: 50%;
+    width: 60%;
     margin: 2rem auto;
 }
 
@@ -228,11 +228,32 @@
 
 /* styling the article's text and images */
 
-
+.article-text {
+    margin-bottom: 1rem;
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    /* margin-left: 20px;
+    margin-right: 20px; */
+}
 
 
 
 .inflation-img {
     max-width: 100%;
+}
+
+
+.article-figure2 {
+    width: 100%;
+}
+
+.article-img2 {
+    max-width: 100%;
+
+}
+
+.article-figcaption {
+    width: 100%;
 }
 
