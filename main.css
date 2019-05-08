@@ -413,16 +413,18 @@
 /* styling the featured section and its components */
 
 .featured {
+    width: 100%;
     margin-top: 45px;
     padding-top: 20px;
     /* background-color: rgb(247, 247, 247); */
     margin-left: auto;
     margin-right: auto;
     /* border-top: 1px solid rgb(226, 226, 226); */
+    overflow: hidden;
 }
 
 .featured-grid {
-    width: 70%;
+    width: 69%;
     border-top: 1px solid black;
     /* border-bottom: 1px solid black; */
     float: left;
@@ -433,7 +435,7 @@
 
 .featured-most-popular {
     width: 28.5%;
-    float: left;
+    float: right;
     margin-left: 1rem;
     border-top: 1px solid black;
     padding-top: .5rem;
