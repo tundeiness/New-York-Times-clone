@@ -561,7 +561,7 @@
 
 
 .footer-list {
-    width: 150px;
+    width: 17%;
 }
 
 
@@ -586,7 +586,7 @@
     height: 22px;
     line-height: 16px;
     text-decoration: none;
-    /* width: 150px; */
+    width: 150px;
 }
 
 .footer-link:hover {
@@ -608,7 +608,7 @@
     display: inline-block;
     font-family: nyt-franklin, sans-serif;
     text-transform: capitalize;
-    font-size: 15px;
+    font-size: 10px;
     font-weight: 700;
     height: 25px;
     line-height: 15px;
