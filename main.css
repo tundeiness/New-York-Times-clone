@@ -426,11 +426,9 @@
 .featured-grid {
     width: 69%;
     border-top: 1px solid black;
-    /* border-bottom: 1px solid black; */
     float: left;
     padding-top: .5rem;
-    /* overflow: hidden; */
-    /* padding: .5rem; */
+
 }
 
 .featured-most-popular {
@@ -547,9 +545,15 @@
 /* styling the footer */
 
 .footer {
-    border-top: 2px solid grey;
     padding: .5rem 0;
     margin: 1rem 0;
+}
+
+.footer-hr{
+    height: 1px;
+    margin-top: 0px;
+    border-bottom: 1px solid rgb(226, 226, 226);
+    border-top: 2px solid rgb(226, 226, 226);
 }
 
 .footer-container {
@@ -594,10 +598,6 @@
 }
 
 .footer-subscribe {
-    /* border-left: 1px solid gray;
-    padding: .8rem;
-    padding-top: 0;
-    width: 164px; */
     padding-left: 15px;
     border-left: 1px solid rgb(226, 226, 226);
     flex: 1 1 0%;
@@ -661,17 +661,37 @@
 /* footer terms section styling */
 
 .footer-terms {
+    border-top: 1px solid rgb(226, 226, 226);
+    padding-top: 9px;
 
 }
 
 .footer-terms-ul {
-
+text-align: center;
 }
 
 .footer-terms-li {
+    display: inline-block;
 
 }
 
-.footer-terms-link {
+.footer-terms-li:not(:last-child){
+    margin-right: 1rem;
+}
+
+.footer-terms-link:link,
+.footer-terms-link:visited{
+    color: rgb(153, 153, 153);
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    white-space: nowrap;
+    padding: 10px 0px;
+    text-decoration: none;
+    font-size: 10px;
 
 }
+
+.footer-terms-link:hover{
+    text-decoration: underline;
+}
+
+
