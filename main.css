@@ -561,7 +561,7 @@
 
 
 .footer-list {
-    width: 200px;
+    width: 150px;
 }
 
 
@@ -573,7 +573,7 @@
     height: 25px;
     line-height: 15px;
     text-transform: uppercase;
-    margin: 0px;    
+    margin: 0px;
 }
 
 .footer-link {
@@ -586,6 +586,7 @@
     height: 22px;
     line-height: 16px;
     text-decoration: none;
+    /* width: 150px; */
 }
 
 .footer-link:hover {
@@ -593,9 +594,13 @@
 }
 
 .footer-subscribe {
-    border-left: 1px solid gray;
+    /* border-left: 1px solid gray;
     padding: .8rem;
     padding-top: 0;
+    width: 164px; */
+    padding-left: 15px;
+    border-left: 1px solid rgb(226, 226, 226);
+    flex: 1 1 0%;
 }
 
 .subscribe-link {
@@ -644,7 +649,7 @@
 }
 
 .subscribe-education {
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid rgb(226, 226, 226);
     padding-bottom: .2rem;
 }
 
@@ -668,5 +673,5 @@
 }
 
 .footer-terms-link {
-    
+
 }
