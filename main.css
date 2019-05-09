@@ -469,7 +469,7 @@
 
 .featured-box {
     width: 30%;
-    margin: 0 auto;
+    margin: .5rem auto;
 }
 
 .featured-box:not(:last-child) {
@@ -541,4 +541,132 @@
 
 .featured-link:hover {
     color: rgb(102, 102, 102);
+}
+
+
+/* styling the footer */
+
+.footer {
+    border-top: 2px solid grey;
+    padding: .5rem 0;
+    margin: 1rem 0;
+}
+
+.footer-container {
+    margin: 1rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.footer-list {
+    width: 200px;
+}
+
+
+.footer-h2 {
+    color: rgb(51, 51, 51);
+    font-size: 13px;
+    font-weight: 700;
+    font-family: nyt-franklin, sans-serif;
+    height: 25px;
+    line-height: 15px;
+    text-transform: uppercase;
+    margin: 0px;    
+}
+
+.footer-link {
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    font-family: nyt-franklin, sans-serif;
+    text-transform: capitalize;
+    font-size: 13px;
+    font-weight: 500;
+    height: 22px;
+    line-height: 16px;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+.footer-subscribe {
+    border-left: 1px solid gray;
+    padding: .8rem;
+    padding-top: 0;
+}
+
+.subscribe-link {
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    font-family: nyt-franklin, sans-serif;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 700;
+    height: 25px;
+    line-height: 15px;
+    padding-bottom: 0px;
+    text-decoration: none;
+}
+
+.subscribe-link:hover {
+    text-decoration: underline;
+}
+
+.footer-svg {
+    display: inline-block;
+    height: 13px;
+    width: 13px;
+    margin-right: 7px;
+    vertical-align: middle;
+}
+
+.footer-sub-link {
+    margin-top: 1rem;
+}
+
+.footer-sub-link-a {
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    font-family: nyt-franklin, sans-serif;
+    text-transform: capitalize;
+    font-size: 11px;
+    font-weight: 500;
+    height: 23px;
+    line-height: 21px;
+    text-decoration: none;
+}
+
+.footer-sub-link-a:hover {
+    text-decoration: underline;
+}
+
+.subscribe-education {
+    border-bottom: 1px solid gray;
+    padding-bottom: .2rem;
+}
+
+.subscribe-mobile {
+    margin-top: .5rem;
+}
+
+
+/* footer terms section styling */
+
+.footer-terms {
+
+}
+
+.footer-terms-ul {
+
+}
+
+.footer-terms-li {
+
+}
+
+.footer-terms-link {
+    
 }
