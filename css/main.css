@@ -222,10 +222,6 @@
     line-height: 1.125rem;
 }
 
-.article-text {
-    clear: both;
-}
-
 .article-video{
     margin: 3rem auto;
 }
@@ -234,6 +230,7 @@
 /* styling the article's text and images */
 
 .article-text {
+    clear: both;
     margin-bottom: 1rem;
     font-family: nyt-imperial,georgia,'times new roman',times,serif;
     font-size: 1.3rem;
@@ -626,6 +623,7 @@
 
 .footer-sub-link {
     margin-top: 1rem;
+
 }
 
 .footer-sub-link-a {
