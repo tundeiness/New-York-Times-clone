@@ -18,6 +18,7 @@
 - [About The Project](#about-the-project)
   - [Technologies used](#technologies-used)
 - [Authors](#authors)
+- [Contact](#contact)
 - [Setup](#setup)
 
 
@@ -33,6 +34,13 @@ HTML and, CSS
 This projects was executed by the duo of **Radouane** & **Tunde**.
 Meet Radouane here on [Github](http://www.google.com) and, here on  [LinkedIn](http://www.google.com).
 Meet Tunde here on  [Github](http://www.google.com) and,  here on [LinkedIn](http://www.google.com)
+
+
+## Contact
+You can contact **Tunde** via the underlisted:
+- Twitter - [@tundeiness](https://twitter.com/tundeiness)
+- Email - [tundeiness@yahoo.co.uk](tundeines@yahoo.co.uk)
+- LinkedIn - [Tunde Oretade](https://www.linkedin.com/in/tunde-oretade/)
 
 
 ## Setup
